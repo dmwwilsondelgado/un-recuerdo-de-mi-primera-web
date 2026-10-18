@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://www.bbva.com/wp-content/uploads/2023/10/que-es-trading-BBVA-salud-financiera.jpg);
+}
+.line{
+    display: flex;
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    box-sizing:  0px 0px 15px #f357ff
+    0px,0px,40px #f357ff;
+    animation: animate 3s linear infinite;
+    background: linear-gradient(to right,#ff2d2d,#77ff77,#00ddff);
+}
+
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+    } 
+    100%{
+        filter: hue-rotate(370deg);
+    }
+    
+}
+
+* {
+    font-size: 20px;
+}
+
+
+
+.nav__reponsives-ul{
+    display: none;
+}
+.nav {
+    background-color:rgb(17, 0, 255) ;
+    border-radius: 30px;
+}
+.nav__li {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+.nav__li a{
+    color: #fff ;
+    text-decoration: none;
+}
+.nav__li i{
+    box-shadow: border-box;
+    text-align: center;
+    margin-right: 10px;
+}
+.welcome-for-pagine{
+    background-color: #fff;
+    margin: 100px;
+}
+
+.login-left{
+    border-radius: 30px;
+    color: #fff;
+    background-color:#152cfd;
+    height: auto;
+    border-radius: 10px;
+}
+.login-form-content{
+    border-radius: 30px;
+}
+
+
+
+
+
+
